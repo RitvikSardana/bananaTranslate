@@ -1,0 +1,26 @@
+textarea{
+    width: 80%;
+    display: block;
+    margin: 1rem;
+    height: 10vh;
+    padding: 1rem;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: yellow;
+    border-radius: 0.8rem;
+}
+
+#output{
+    border: 1px solid black;
+    width: 80%;
+    display: block;
+    margin: 1rem;
+    height: 10vh;
+    padding: 1rem;
+    text-align: center;
+}
