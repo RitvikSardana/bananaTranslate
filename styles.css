@@ -1,3 +1,9 @@
+:root{
+    --primary :#F2C94C
+}
+
+
+
 textarea{
     width: 80%;
     display: block;
@@ -11,8 +17,16 @@ textarea{
     text-align: center;
     margin: 1rem;
     padding: 1rem;
-    background-color: yellow;
+    background-color: var(--primary);
     border-radius: 0.8rem;
+}
+
+#btn-translate{
+    margin: 1rem;
+}
+
+#text{
+    margin: 1rem;
 }
 
 #output{
