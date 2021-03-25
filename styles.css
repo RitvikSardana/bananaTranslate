@@ -1,40 +1,71 @@
 :root{
     --primary :#F2C94C
+    
 }
 
-
-
-textarea{
-    width: 80%;
-    display: block;
-    margin: 1rem;
-    height: 10vh;
-    padding: 1rem;
-    text-align: center;
+body {
+    font-family: 'Kalam',cursive;
+    /* background-color: rgb(65, 65, 199); */
+    background-color: rgb(32, 94, 145);
 }
 
 #header{
     text-align: center;
-    margin: 1rem;
-    padding: 1rem;
+    /* margin: 1rem; */
+    padding: 1.5rem;
     background-color: var(--primary);
     border-radius: 0.8rem;
+    position: relative;
 }
 
+textarea{
+    width: 80%;
+    display: block;
+    margin: 2rem;
+    height: 10vh;
+    padding: 1rem;
+    /* text-align: center; */
+    font-family: 'kalam',cursive;
+    background-color: orange;
+}
+
+
 #btn-translate{
-    margin: 1rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    
+    border-radius: 0.8rem;
+    background-color: var(--primary);
 }
 
 #text{
-    margin: 1rem;
+    margin: 2rem;
 }
 
 #output{
     border: 1px solid black;
     width: 80%;
     display: block;
-    margin: 1rem;
+    margin:2rem;
+    margin-block-end: 5rem;
     height: 10vh;
     padding: 1rem;
+    /* text-align: center; */
+    background-color: orange;
+}
+
+
+.centerDiv{
     text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+#footer{
+    /* text-align: center; */
+    /* margin: 1rem; */
+    padding: 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.8rem;
 }
