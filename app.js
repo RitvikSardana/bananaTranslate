@@ -15,16 +15,14 @@ function errorHandler(error){
 }
 
 function clickEventHandler() {
-    // console.log("Clicked");
-    // console.log(txtInput.value)
-    // txtOutput.innerHTML = "Translated " + txtInput.value;
-    var text = txtInput.value
+
+    var text = txtInput.value //reading value
 
     fetch(urlCreator(text))
     .then(response => response.json())
     .then(json => {
         var translatedText = json.contents.translated;
-        txtOutput.innerText = translatedText;
+        txtOutput.innerText = translatedText; //writing value to output
         console.log(translatedText)
             })
     .catch(errorHandler(error))
